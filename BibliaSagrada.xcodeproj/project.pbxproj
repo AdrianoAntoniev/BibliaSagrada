@@ -1,0 +1,1039 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F911E2EF16900438951B3F8 /* Pods_BibliaSagrada_BibliaSagradaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE65E344FB0274C1D01C491 /* Pods_BibliaSagrada_BibliaSagradaUITests.framework */; };
+		70BA20B003C64EB737ED15D5 /* Pods_BibliaSagrada.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C89E636F0998BFBF52317CBE /* Pods_BibliaSagrada.framework */; };
+		84420955F2D36B0AF2907B6E /* Pods_BibliaSagradaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AFBB83273CAE78C6B62D54 /* Pods_BibliaSagradaTests.framework */; };
+		B909F1B825F7C39C0019F7FD /* RandomVerseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B909F1B725F7C39C0019F7FD /* RandomVerseModel.swift */; };
+		B910EE3D25EC85BE002660DC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B910EE3C25EC85BE002660DC /* Extensions.swift */; };
+		B914914C25EB47B800AAE6A8 /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B914914B25EB47B800AAE6A8 /* BooksView.swift */; };
+		B914915425EB47D800AAE6A8 /* VerseOfTheDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B914915325EB47D800AAE6A8 /* VerseOfTheDayView.swift */; };
+		B914915925EB47E600AAE6A8 /* SavedVersesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B914915825EB47E600AAE6A8 /* SavedVersesView.swift */; };
+		B914915E25EB485C00AAE6A8 /* RouterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B914915D25EB485C00AAE6A8 /* RouterView.swift */; };
+		B933B05D260A7EF700F5CD7C /* CustomVerseOfTheDayLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B933B05C260A7EF700F5CD7C /* CustomVerseOfTheDayLabel.swift */; };
+		B933B071260A95CA00F5CD7C /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B933B070260A95CA00F5CD7C /* Storage.swift */; };
+		B937F93525F6C61D00F69396 /* ChapterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B937F93425F6C61D00F69396 /* ChapterModel.swift */; };
+		B937F94125F6D25A00F69396 /* VersesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B937F94025F6D25A00F69396 /* VersesView.swift */; };
+		B937F95425F6F93E00F69396 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B937F95325F6F93D00F69396 /* CustomLabel.swift */; };
+		B938D0E3260D752500C105CD /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B938D0E2260D752500C105CD /* Formatter.swift */; };
+		B93B791B25EB32A500D876AB /* BookButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93B791A25EB32A500D876AB /* BookButtonView.swift */; };
+		B95D6A5C260E3F3F009324A9 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95D6A5B260E3F3F009324A9 /* WidgetKit.framework */; };
+		B95D6A5E260E3F3F009324A9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95D6A5D260E3F3F009324A9 /* SwiftUI.framework */; };
+		B95D6A61260E3F3F009324A9 /* TestWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95D6A60260E3F3F009324A9 /* TestWidget.swift */; };
+		B95D6A64260E3F45009324A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B95D6A63260E3F45009324A9 /* Assets.xcassets */; };
+		B95D6A66260E3F45009324A9 /* TestWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B95D6A62260E3F3F009324A9 /* TestWidget.intentdefinition */; };
+		B95D6A67260E3F45009324A9 /* TestWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B95D6A62260E3F3F009324A9 /* TestWidget.intentdefinition */; };
+		B95D6A6A260E3F45009324A9 /* TestWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B95D6A5A260E3F3F009324A9 /* TestWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B990F7D825E9B08A009ACCAD /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B990F7D725E9B08A009ACCAD /* BookModel.swift */; };
+		B99D619C25E9A1A800B6EB4C /* BibliaSagradaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99D619B25E9A1A800B6EB4C /* BibliaSagradaApp.swift */; };
+		B99D619E25E9A1A800B6EB4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99D619D25E9A1A800B6EB4C /* ContentView.swift */; };
+		B99D61A025E9A1AD00B6EB4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B99D619F25E9A1AD00B6EB4C /* Assets.xcassets */; };
+		B99D61A325E9A1AD00B6EB4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B99D61A225E9A1AD00B6EB4C /* Preview Assets.xcassets */; };
+		B99D61AE25E9A1AD00B6EB4C /* BibliaSagradaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99D61AD25E9A1AD00B6EB4C /* BibliaSagradaTests.swift */; };
+		B9B3379425E9AA9600C50936 /* BibleRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B3379325E9AA9600C50936 /* BibleRepo.swift */; };
+		B9B3379925E9AAA600C50936 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B3379825E9AAA600C50936 /* Constants.swift */; };
+		B9C3613B25EC2F3400366109 /* ChaptersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3613A25EC2F3400366109 /* ChaptersView.swift */; };
+		B9C3614025EC2FD400366109 /* ChapterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3613F25EC2FD400366109 /* ChapterButtonView.swift */; };
+		B9FB71F6260B7BAE00D12EF3 /* Verse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FB71F5260B7BAE00D12EF3 /* Verse.swift */; };
+		B9FB7207260B8C0B00D12EF3 /* SavedVerseCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FB7206260B8C0B00D12EF3 /* SavedVerseCellView.swift */; };
+		B9FB7215260B939600D12EF3 /* CustomSavedVerseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FB7214260B939600D12EF3 /* CustomSavedVerseLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B95D6A68260E3F45009324A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B99D619025E9A1A800B6EB4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B95D6A59260E3F3F009324A9;
+			remoteInfo = TestWidgetExtension;
+		};
+		B99D61AA25E9A1AD00B6EB4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B99D619025E9A1A800B6EB4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B99D619725E9A1A800B6EB4C;
+			remoteInfo = BibliaSagrada;
+		};
+		B99D61B525E9A1AD00B6EB4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B99D619025E9A1A800B6EB4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B99D619725E9A1A800B6EB4C;
+			remoteInfo = BibliaSagrada;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B95D6A6B260E3F45009324A9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B95D6A6A260E3F45009324A9 /* TestWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0BE65E344FB0274C1D01C491 /* Pods_BibliaSagrada_BibliaSagradaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BibliaSagrada_BibliaSagradaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E03CEFA9383AEA9A056A2B8 /* Pods-BibliaSagrada.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BibliaSagrada.debug.xcconfig"; path = "Target Support Files/Pods-BibliaSagrada/Pods-BibliaSagrada.debug.xcconfig"; sourceTree = "<group>"; };
+		37AFBB83273CAE78C6B62D54 /* Pods_BibliaSagradaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BibliaSagradaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39BF97F10DAE66F47C6B72E3 /* Pods-BibliaSagradaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BibliaSagradaTests.debug.xcconfig"; path = "Target Support Files/Pods-BibliaSagradaTests/Pods-BibliaSagradaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		562CFAEA5D599C1997C07168 /* Pods-BibliaSagrada-BibliaSagradaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BibliaSagrada-BibliaSagradaUITests.release.xcconfig"; path = "Target Support Files/Pods-BibliaSagrada-BibliaSagradaUITests/Pods-BibliaSagrada-BibliaSagradaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		63534081A2C42460DF5B3916 /* Pods-BibliaSagrada.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BibliaSagrada.release.xcconfig"; path = "Target Support Files/Pods-BibliaSagrada/Pods-BibliaSagrada.release.xcconfig"; sourceTree = "<group>"; };
+		AF6897090BA9C6F0DF845631 /* Pods-BibliaSagrada-BibliaSagradaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BibliaSagrada-BibliaSagradaUITests.debug.xcconfig"; path = "Target Support Files/Pods-BibliaSagrada-BibliaSagradaUITests/Pods-BibliaSagrada-BibliaSagradaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B909F1B725F7C39C0019F7FD /* RandomVerseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomVerseModel.swift; sourceTree = "<group>"; };
+		B910EE3C25EC85BE002660DC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B914914B25EB47B800AAE6A8 /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
+		B914915325EB47D800AAE6A8 /* VerseOfTheDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseOfTheDayView.swift; sourceTree = "<group>"; };
+		B914915825EB47E600AAE6A8 /* SavedVersesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedVersesView.swift; sourceTree = "<group>"; };
+		B914915D25EB485C00AAE6A8 /* RouterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterView.swift; sourceTree = "<group>"; };
+		B933B05C260A7EF700F5CD7C /* CustomVerseOfTheDayLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVerseOfTheDayLabel.swift; sourceTree = "<group>"; };
+		B933B070260A95CA00F5CD7C /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		B937F93425F6C61D00F69396 /* ChapterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterModel.swift; sourceTree = "<group>"; };
+		B937F94025F6D25A00F69396 /* VersesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersesView.swift; sourceTree = "<group>"; };
+		B937F95325F6F93D00F69396 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		B938D0E2260D752500C105CD /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		B93B791A25EB32A500D876AB /* BookButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookButtonView.swift; sourceTree = "<group>"; };
+		B95D6A5A260E3F3F009324A9 /* TestWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TestWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95D6A5B260E3F3F009324A9 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		B95D6A5D260E3F3F009324A9 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		B95D6A60260E3F3F009324A9 /* TestWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWidget.swift; sourceTree = "<group>"; };
+		B95D6A62260E3F3F009324A9 /* TestWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = TestWidget.intentdefinition; sourceTree = "<group>"; };
+		B95D6A63260E3F45009324A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B95D6A65260E3F45009324A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B990F7D725E9B08A009ACCAD /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		B99D619825E9A1A800B6EB4C /* BibliaSagrada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibliaSagrada.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B99D619B25E9A1A800B6EB4C /* BibliaSagradaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibliaSagradaApp.swift; sourceTree = "<group>"; };
+		B99D619D25E9A1A800B6EB4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B99D619F25E9A1AD00B6EB4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B99D61A225E9A1AD00B6EB4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B99D61A425E9A1AD00B6EB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B99D61A925E9A1AD00B6EB4C /* BibliaSagradaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BibliaSagradaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B99D61AD25E9A1AD00B6EB4C /* BibliaSagradaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibliaSagradaTests.swift; sourceTree = "<group>"; };
+		B99D61AF25E9A1AD00B6EB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B99D61B425E9A1AD00B6EB4C /* BibliaSagradaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BibliaSagradaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B3379325E9AA9600C50936 /* BibleRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleRepo.swift; sourceTree = "<group>"; };
+		B9B3379825E9AAA600C50936 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B9C3613A25EC2F3400366109 /* ChaptersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaptersView.swift; sourceTree = "<group>"; };
+		B9C3613F25EC2FD400366109 /* ChapterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterButtonView.swift; sourceTree = "<group>"; };
+		B9FB71F5260B7BAE00D12EF3 /* Verse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verse.swift; sourceTree = "<group>"; };
+		B9FB7206260B8C0B00D12EF3 /* SavedVerseCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedVerseCellView.swift; sourceTree = "<group>"; };
+		B9FB7214260B939600D12EF3 /* CustomSavedVerseLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSavedVerseLabel.swift; sourceTree = "<group>"; };
+		C718A046C0C3B1AAF41D4247 /* Pods-BibliaSagradaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BibliaSagradaTests.release.xcconfig"; path = "Target Support Files/Pods-BibliaSagradaTests/Pods-BibliaSagradaTests.release.xcconfig"; sourceTree = "<group>"; };
+		C89E636F0998BFBF52317CBE /* Pods_BibliaSagrada.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BibliaSagrada.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B95D6A57260E3F3F009324A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95D6A5E260E3F3F009324A9 /* SwiftUI.framework in Frameworks */,
+				B95D6A5C260E3F3F009324A9 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99D619525E9A1A800B6EB4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BA20B003C64EB737ED15D5 /* Pods_BibliaSagrada.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99D61A625E9A1AD00B6EB4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84420955F2D36B0AF2907B6E /* Pods_BibliaSagradaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99D61B125E9A1AD00B6EB4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F911E2EF16900438951B3F8 /* Pods_BibliaSagrada_BibliaSagradaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DED2489463FC7703D0B037B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C89E636F0998BFBF52317CBE /* Pods_BibliaSagrada.framework */,
+				0BE65E344FB0274C1D01C491 /* Pods_BibliaSagrada_BibliaSagradaUITests.framework */,
+				37AFBB83273CAE78C6B62D54 /* Pods_BibliaSagradaTests.framework */,
+				B95D6A5B260E3F3F009324A9 /* WidgetKit.framework */,
+				B95D6A5D260E3F3F009324A9 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B933B075260A95D000F5CD7C /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				B933B070260A95CA00F5CD7C /* Storage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		B937F95B25F6FC3F00F69396 /* ViewRepresentables */ = {
+			isa = PBXGroup;
+			children = (
+				B937F95325F6F93D00F69396 /* CustomLabel.swift */,
+				B933B05C260A7EF700F5CD7C /* CustomVerseOfTheDayLabel.swift */,
+				B9FB7214260B939600D12EF3 /* CustomSavedVerseLabel.swift */,
+			);
+			path = ViewRepresentables;
+			sourceTree = "<group>";
+		};
+		B93B791625E9B84B00D876AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B990F7D725E9B08A009ACCAD /* BookModel.swift */,
+				B937F93425F6C61D00F69396 /* ChapterModel.swift */,
+				B909F1B725F7C39C0019F7FD /* RandomVerseModel.swift */,
+				B9FB71F5260B7BAE00D12EF3 /* Verse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B95D6A5F260E3F3F009324A9 /* TestWidget */ = {
+			isa = PBXGroup;
+			children = (
+				B95D6A60260E3F3F009324A9 /* TestWidget.swift */,
+				B95D6A62260E3F3F009324A9 /* TestWidget.intentdefinition */,
+				B95D6A63260E3F45009324A9 /* Assets.xcassets */,
+				B95D6A65260E3F45009324A9 /* Info.plist */,
+			);
+			path = TestWidget;
+			sourceTree = "<group>";
+		};
+		B99D618F25E9A1A800B6EB4C = {
+			isa = PBXGroup;
+			children = (
+				B99D619A25E9A1A800B6EB4C /* BibliaSagrada */,
+				B99D61AC25E9A1AD00B6EB4C /* BibliaSagradaTests */,
+				B95D6A5F260E3F3F009324A9 /* TestWidget */,
+				B99D619925E9A1A800B6EB4C /* Products */,
+				BB83051629B3A55098284AFA /* Pods */,
+				0DED2489463FC7703D0B037B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B99D619925E9A1A800B6EB4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B99D619825E9A1A800B6EB4C /* BibliaSagrada.app */,
+				B99D61A925E9A1AD00B6EB4C /* BibliaSagradaTests.xctest */,
+				B99D61B425E9A1AD00B6EB4C /* BibliaSagradaUITests.xctest */,
+				B95D6A5A260E3F3F009324A9 /* TestWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B99D619A25E9A1A800B6EB4C /* BibliaSagrada */ = {
+			isa = PBXGroup;
+			children = (
+				B99D619B25E9A1A800B6EB4C /* BibliaSagradaApp.swift */,
+				B9B337A125E9AABC00C50936 /* Views */,
+				B99D619F25E9A1AD00B6EB4C /* Assets.xcassets */,
+				B99D61A425E9A1AD00B6EB4C /* Info.plist */,
+				B99D61A125E9A1AD00B6EB4C /* Preview Content */,
+				B9B337A225E9AACD00C50936 /* FetchingData */,
+				B9B3379D25E9AAAD00C50936 /* Supporting Files */,
+				B93B791625E9B84B00D876AB /* Model */,
+				B933B075260A95D000F5CD7C /* Storage */,
+			);
+			path = BibliaSagrada;
+			sourceTree = "<group>";
+		};
+		B99D61A125E9A1AD00B6EB4C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B99D61A225E9A1AD00B6EB4C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B99D61AC25E9A1AD00B6EB4C /* BibliaSagradaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B99D61AD25E9A1AD00B6EB4C /* BibliaSagradaTests.swift */,
+				B99D61AF25E9A1AD00B6EB4C /* Info.plist */,
+			);
+			path = BibliaSagradaTests;
+			sourceTree = "<group>";
+		};
+		B9B3379D25E9AAAD00C50936 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9B3379825E9AAA600C50936 /* Constants.swift */,
+				B910EE3C25EC85BE002660DC /* Extensions.swift */,
+				B938D0E2260D752500C105CD /* Formatter.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9B337A125E9AABC00C50936 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B99D619D25E9A1A800B6EB4C /* ContentView.swift */,
+				B9C3614725EC784700366109 /* Testaments */,
+				B9C3614B25EC785800366109 /* VerseOfDay */,
+				B9C3614F25EC786300366109 /* SavedVerses */,
+				B914915D25EB485C00AAE6A8 /* RouterView.swift */,
+				B937F95B25F6FC3F00F69396 /* ViewRepresentables */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B9B337A225E9AACD00C50936 /* FetchingData */ = {
+			isa = PBXGroup;
+			children = (
+				B9B3379325E9AA9600C50936 /* BibleRepo.swift */,
+			);
+			path = FetchingData;
+			sourceTree = "<group>";
+		};
+		B9C3614725EC784700366109 /* Testaments */ = {
+			isa = PBXGroup;
+			children = (
+				B93B791A25EB32A500D876AB /* BookButtonView.swift */,
+				B914914B25EB47B800AAE6A8 /* BooksView.swift */,
+				B9C3613A25EC2F3400366109 /* ChaptersView.swift */,
+				B9C3613F25EC2FD400366109 /* ChapterButtonView.swift */,
+				B937F94025F6D25A00F69396 /* VersesView.swift */,
+			);
+			path = Testaments;
+			sourceTree = "<group>";
+		};
+		B9C3614B25EC785800366109 /* VerseOfDay */ = {
+			isa = PBXGroup;
+			children = (
+				B914915325EB47D800AAE6A8 /* VerseOfTheDayView.swift */,
+			);
+			path = VerseOfDay;
+			sourceTree = "<group>";
+		};
+		B9C3614F25EC786300366109 /* SavedVerses */ = {
+			isa = PBXGroup;
+			children = (
+				B914915825EB47E600AAE6A8 /* SavedVersesView.swift */,
+				B9FB7206260B8C0B00D12EF3 /* SavedVerseCellView.swift */,
+			);
+			path = SavedVerses;
+			sourceTree = "<group>";
+		};
+		BB83051629B3A55098284AFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E03CEFA9383AEA9A056A2B8 /* Pods-BibliaSagrada.debug.xcconfig */,
+				63534081A2C42460DF5B3916 /* Pods-BibliaSagrada.release.xcconfig */,
+				AF6897090BA9C6F0DF845631 /* Pods-BibliaSagrada-BibliaSagradaUITests.debug.xcconfig */,
+				562CFAEA5D599C1997C07168 /* Pods-BibliaSagrada-BibliaSagradaUITests.release.xcconfig */,
+				39BF97F10DAE66F47C6B72E3 /* Pods-BibliaSagradaTests.debug.xcconfig */,
+				C718A046C0C3B1AAF41D4247 /* Pods-BibliaSagradaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B95D6A59260E3F3F009324A9 /* TestWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95D6A6E260E3F45009324A9 /* Build configuration list for PBXNativeTarget "TestWidgetExtension" */;
+			buildPhases = (
+				B95D6A56260E3F3F009324A9 /* Sources */,
+				B95D6A57260E3F3F009324A9 /* Frameworks */,
+				B95D6A58260E3F3F009324A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestWidgetExtension;
+			productName = TestWidgetExtension;
+			productReference = B95D6A5A260E3F3F009324A9 /* TestWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B99D619725E9A1A800B6EB4C /* BibliaSagrada */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B99D61BD25E9A1AE00B6EB4C /* Build configuration list for PBXNativeTarget "BibliaSagrada" */;
+			buildPhases = (
+				02EBAC4C3E923E259D46EE9E /* [CP] Check Pods Manifest.lock */,
+				B99D619425E9A1A800B6EB4C /* Sources */,
+				B99D619525E9A1A800B6EB4C /* Frameworks */,
+				B99D619625E9A1A800B6EB4C /* Resources */,
+				306C03AC45AC05020A5655BD /* [CP] Embed Pods Frameworks */,
+				B95D6A6B260E3F45009324A9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B95D6A69260E3F45009324A9 /* PBXTargetDependency */,
+			);
+			name = BibliaSagrada;
+			productName = BibliaSagrada;
+			productReference = B99D619825E9A1A800B6EB4C /* BibliaSagrada.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B99D61A825E9A1AD00B6EB4C /* BibliaSagradaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B99D61C025E9A1AE00B6EB4C /* Build configuration list for PBXNativeTarget "BibliaSagradaTests" */;
+			buildPhases = (
+				8B5832FF387F302E1DFEBD51 /* [CP] Check Pods Manifest.lock */,
+				B99D61A525E9A1AD00B6EB4C /* Sources */,
+				B99D61A625E9A1AD00B6EB4C /* Frameworks */,
+				B99D61A725E9A1AD00B6EB4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B99D61AB25E9A1AD00B6EB4C /* PBXTargetDependency */,
+			);
+			name = BibliaSagradaTests;
+			productName = BibliaSagradaTests;
+			productReference = B99D61A925E9A1AD00B6EB4C /* BibliaSagradaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B99D61B325E9A1AD00B6EB4C /* BibliaSagradaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B99D61C325E9A1AE00B6EB4C /* Build configuration list for PBXNativeTarget "BibliaSagradaUITests" */;
+			buildPhases = (
+				77CDEF023D4A412926D27505 /* [CP] Check Pods Manifest.lock */,
+				B99D61B025E9A1AD00B6EB4C /* Sources */,
+				B99D61B125E9A1AD00B6EB4C /* Frameworks */,
+				B99D61B225E9A1AD00B6EB4C /* Resources */,
+				4F789BCDF91B8185A8742902 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B99D61B625E9A1AD00B6EB4C /* PBXTargetDependency */,
+			);
+			name = BibliaSagradaUITests;
+			productName = BibliaSagradaUITests;
+			productReference = B99D61B425E9A1AD00B6EB4C /* BibliaSagradaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B99D619025E9A1A800B6EB4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B95D6A59260E3F3F009324A9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B99D619725E9A1A800B6EB4C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B99D61A825E9A1AD00B6EB4C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B99D619725E9A1A800B6EB4C;
+					};
+					B99D61B325E9A1AD00B6EB4C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B99D619725E9A1A800B6EB4C;
+					};
+				};
+			};
+			buildConfigurationList = B99D619325E9A1A800B6EB4C /* Build configuration list for PBXProject "BibliaSagrada" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B99D618F25E9A1A800B6EB4C;
+			productRefGroup = B99D619925E9A1A800B6EB4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B99D619725E9A1A800B6EB4C /* BibliaSagrada */,
+				B99D61A825E9A1AD00B6EB4C /* BibliaSagradaTests */,
+				B99D61B325E9A1AD00B6EB4C /* BibliaSagradaUITests */,
+				B95D6A59260E3F3F009324A9 /* TestWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B95D6A58260E3F3F009324A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95D6A64260E3F45009324A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99D619625E9A1A800B6EB4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99D61A325E9A1AD00B6EB4C /* Preview Assets.xcassets in Resources */,
+				B99D61A025E9A1AD00B6EB4C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99D61A725E9A1AD00B6EB4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99D61B225E9A1AD00B6EB4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02EBAC4C3E923E259D46EE9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BibliaSagrada-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		306C03AC45AC05020A5655BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BibliaSagrada/Pods-BibliaSagrada-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BibliaSagrada/Pods-BibliaSagrada-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BibliaSagrada/Pods-BibliaSagrada-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F789BCDF91B8185A8742902 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BibliaSagrada-BibliaSagradaUITests/Pods-BibliaSagrada-BibliaSagradaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BibliaSagrada-BibliaSagradaUITests/Pods-BibliaSagrada-BibliaSagradaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BibliaSagrada-BibliaSagradaUITests/Pods-BibliaSagrada-BibliaSagradaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77CDEF023D4A412926D27505 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BibliaSagrada-BibliaSagradaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B5832FF387F302E1DFEBD51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BibliaSagradaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B95D6A56260E3F3F009324A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95D6A66260E3F45009324A9 /* TestWidget.intentdefinition in Sources */,
+				B95D6A61260E3F3F009324A9 /* TestWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99D619425E9A1A800B6EB4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B990F7D825E9B08A009ACCAD /* BookModel.swift in Sources */,
+				B9C3613B25EC2F3400366109 /* ChaptersView.swift in Sources */,
+				B914914C25EB47B800AAE6A8 /* BooksView.swift in Sources */,
+				B933B071260A95CA00F5CD7C /* Storage.swift in Sources */,
+				B933B05D260A7EF700F5CD7C /* CustomVerseOfTheDayLabel.swift in Sources */,
+				B937F94125F6D25A00F69396 /* VersesView.swift in Sources */,
+				B914915E25EB485C00AAE6A8 /* RouterView.swift in Sources */,
+				B99D619E25E9A1A800B6EB4C /* ContentView.swift in Sources */,
+				B937F95425F6F93E00F69396 /* CustomLabel.swift in Sources */,
+				B938D0E3260D752500C105CD /* Formatter.swift in Sources */,
+				B93B791B25EB32A500D876AB /* BookButtonView.swift in Sources */,
+				B909F1B825F7C39C0019F7FD /* RandomVerseModel.swift in Sources */,
+				B9FB71F6260B7BAE00D12EF3 /* Verse.swift in Sources */,
+				B9C3614025EC2FD400366109 /* ChapterButtonView.swift in Sources */,
+				B937F93525F6C61D00F69396 /* ChapterModel.swift in Sources */,
+				B9B3379425E9AA9600C50936 /* BibleRepo.swift in Sources */,
+				B95D6A67260E3F45009324A9 /* TestWidget.intentdefinition in Sources */,
+				B9FB7215260B939600D12EF3 /* CustomSavedVerseLabel.swift in Sources */,
+				B99D619C25E9A1A800B6EB4C /* BibliaSagradaApp.swift in Sources */,
+				B914915425EB47D800AAE6A8 /* VerseOfTheDayView.swift in Sources */,
+				B910EE3D25EC85BE002660DC /* Extensions.swift in Sources */,
+				B9B3379925E9AAA600C50936 /* Constants.swift in Sources */,
+				B914915925EB47E600AAE6A8 /* SavedVersesView.swift in Sources */,
+				B9FB7207260B8C0B00D12EF3 /* SavedVerseCellView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99D61A525E9A1AD00B6EB4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99D61AE25E9A1AD00B6EB4C /* BibliaSagradaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99D61B025E9A1AD00B6EB4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B95D6A69260E3F45009324A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B95D6A59260E3F3F009324A9 /* TestWidgetExtension */;
+			targetProxy = B95D6A68260E3F45009324A9 /* PBXContainerItemProxy */;
+		};
+		B99D61AB25E9A1AD00B6EB4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B99D619725E9A1A800B6EB4C /* BibliaSagrada */;
+			targetProxy = B99D61AA25E9A1AD00B6EB4C /* PBXContainerItemProxy */;
+		};
+		B99D61B625E9A1AD00B6EB4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B99D619725E9A1A800B6EB4C /* BibliaSagrada */;
+			targetProxy = B99D61B525E9A1AD00B6EB4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B95D6A6C260E3F45009324A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D9YSKR59P;
+				INFOPLIST_FILE = TestWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Adriano-Rodrigues-Vieira.BibliaSagrada.TestWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B95D6A6D260E3F45009324A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D9YSKR59P;
+				INFOPLIST_FILE = TestWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Adriano-Rodrigues-Vieira.BibliaSagrada.TestWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B99D61BB25E9A1AE00B6EB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B99D61BC25E9A1AE00B6EB4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B99D61BE25E9A1AE00B6EB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E03CEFA9383AEA9A056A2B8 /* Pods-BibliaSagrada.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BibliaSagrada/Preview Content\"";
+				DEVELOPMENT_TEAM = 2D9YSKR59P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BibliaSagrada/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Adriano-Rodrigues-Vieira.BibliaSagrada";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B99D61BF25E9A1AE00B6EB4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63534081A2C42460DF5B3916 /* Pods-BibliaSagrada.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BibliaSagrada/Preview Content\"";
+				DEVELOPMENT_TEAM = 2D9YSKR59P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BibliaSagrada/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Adriano-Rodrigues-Vieira.BibliaSagrada";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B99D61C125E9A1AE00B6EB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39BF97F10DAE66F47C6B72E3 /* Pods-BibliaSagradaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D9YSKR59P;
+				INFOPLIST_FILE = BibliaSagradaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Adriano-Rodrigues-Vieira.BibliaSagradaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BibliaSagrada.app/BibliaSagrada";
+			};
+			name = Debug;
+		};
+		B99D61C225E9A1AE00B6EB4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C718A046C0C3B1AAF41D4247 /* Pods-BibliaSagradaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D9YSKR59P;
+				INFOPLIST_FILE = BibliaSagradaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Adriano-Rodrigues-Vieira.BibliaSagradaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BibliaSagrada.app/BibliaSagrada";
+			};
+			name = Release;
+		};
+		B99D61C425E9A1AE00B6EB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF6897090BA9C6F0DF845631 /* Pods-BibliaSagrada-BibliaSagradaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D9YSKR59P;
+				INFOPLIST_FILE = BibliaSagradaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Adriano-Rodrigues-Vieira.BibliaSagradaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BibliaSagrada;
+			};
+			name = Debug;
+		};
+		B99D61C525E9A1AE00B6EB4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 562CFAEA5D599C1997C07168 /* Pods-BibliaSagrada-BibliaSagradaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D9YSKR59P;
+				INFOPLIST_FILE = BibliaSagradaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Adriano-Rodrigues-Vieira.BibliaSagradaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BibliaSagrada;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B95D6A6E260E3F45009324A9 /* Build configuration list for PBXNativeTarget "TestWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95D6A6C260E3F45009324A9 /* Debug */,
+				B95D6A6D260E3F45009324A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B99D619325E9A1A800B6EB4C /* Build configuration list for PBXProject "BibliaSagrada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B99D61BB25E9A1AE00B6EB4C /* Debug */,
+				B99D61BC25E9A1AE00B6EB4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B99D61BD25E9A1AE00B6EB4C /* Build configuration list for PBXNativeTarget "BibliaSagrada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B99D61BE25E9A1AE00B6EB4C /* Debug */,
+				B99D61BF25E9A1AE00B6EB4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B99D61C025E9A1AE00B6EB4C /* Build configuration list for PBXNativeTarget "BibliaSagradaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B99D61C125E9A1AE00B6EB4C /* Debug */,
+				B99D61C225E9A1AE00B6EB4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B99D61C325E9A1AE00B6EB4C /* Build configuration list for PBXNativeTarget "BibliaSagradaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B99D61C425E9A1AE00B6EB4C /* Debug */,
+				B99D61C525E9A1AE00B6EB4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B99D619025E9A1A800B6EB4C /* Project object */;
+}
