@@ -1,6 +1,4 @@
 # BibliaSagrada
-____
-
 
 
 
@@ -23,6 +21,12 @@ Este projeto apresenta 4 abas, a saber:
 - **Verso do dia**, o qual fornece ao usuário um verso cada vez que o app é aberto; e
 - **Meus versos salvos**, que mostra uma lista dos versos salvos a partir dos testamentos ou do verso do dia (para salvar um verso em tais locais, basta clicar sobre o verso).
 
-<center>
-  
-</center>
+<p align="center">  
+  <img src="https://github.com/AdrianoAntoniev/BibliaSagrada/blob/master/output.gif?raw=true" alt="App gif"/>
+</p>
+
+### Foi usado:
+- Swift 5;
+- Xcode 12.4
+
+*E tudo quanto fizerdes, fazei-o de todo o coração, como ao Senhor, e não aos homens (Colossenses 3:23)*
