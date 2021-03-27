@@ -29,4 +29,8 @@ Este projeto apresenta 4 abas, a saber:
 - Swift 5;
 - Xcode 12.4
 
+
+
+
+
 *E tudo quanto fizerdes, fazei-o de todo o coração, como ao Senhor, e não aos homens (Colossenses 3:23)*
